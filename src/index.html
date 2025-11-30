@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>goit-js-hw-11</title>
+    <title>goit-js-hw-12</title>
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
@@ -20,10 +20,19 @@
       <button type="submit">Search</button>
     </form>
 
-    <!-- loader -->
-    <span class="js-loader"></span>
-
     <ul class="gallery"></ul>
+
+    <!-- Load more button -->
+    <div class="controls" style="text-align: center">
+      <button
+        class="load-more js-load-more"
+        type="button"
+        style="display: none"
+      >
+        Load more
+      </button>
+      <span class="js-loader" style="display: none"></span>
+    </div>
 
     <script type="module" src="./main.js"></script>
   </body>
