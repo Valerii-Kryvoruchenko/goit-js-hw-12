@@ -41,17 +41,17 @@ export function clearGallery() {
 }
 
 export function showLoader() {
-  if (loaderEl) loaderEl.style.display = 'block';
+  loaderEl.classList.add('is-visible');
 }
 
 export function hideLoader() {
-  if (loaderEl) loaderEl.style.display = 'none';
+  loaderEl.classList.remove('is-visible');
 }
 
 export function showLoadMoreButton() {
-  if (loadMoreBtn) loadMoreBtn.style.display = 'inline-block';
+  loadMoreBtn.classList.add('is-visible');
 }
 
 export function hideLoadMoreButton() {
-  if (loadMoreBtn) loadMoreBtn.style.display = 'none';
+  loadMoreBtn.classList.remove('is-visible');
 }
