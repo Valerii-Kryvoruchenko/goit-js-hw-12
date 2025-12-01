@@ -54,7 +54,7 @@ body {
   transform: scale(0.98);
 }
 
-/* -------------------- GALLERY -------------------- */
+/* -------------------- Gallery -------------------- */
 
 .gallery {
   list-style: none;
@@ -109,7 +109,7 @@ body {
   margin-bottom: 4px;
 }
 
-/* -------------------- LOAD MORE BUTTON -------------------- */
+/* -------------------- Load more button-------------------- */
 
 .load-more {
   display: none;
@@ -137,7 +137,7 @@ body {
   display: block;
 }
 
-/* -------------------- LOADER -------------------- */
+/* -------------------- Loader -------------------- */
 
 .js-loader {
   display: none;
